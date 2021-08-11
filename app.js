@@ -42,3 +42,43 @@ addBanana.addEventListener("click", function increaseBanana (){
         numBanana.innerHTML= count + " Bananas"
     } 
 })
+
+//Subtract functions
+subPear.addEventListener("click", function decreasePear() {
+    count -= 1
+    if (count === 1) {
+        numPears.innerHTML= count + " Pear"
+    } else if (count < 0) {
+        count = 0
+        numPears.innerHTML= 0 + " Pears"
+    }  else {
+        numPears.innerHTML= count + " Pears"
+    } 
+})
+
+subApple.addEventListener("click", function decreaseApple() {
+    count -= 1
+    if (count === 1) {
+        numApples.innerHTML= count + " Apple"
+    } else if (count < 0) {
+        count = 0
+        numApples.innerHTML= 0 + " Apples"
+    }  else {
+        numApples.innerHTML= count + " Apples"
+    } 
+})
+
+subBanana.addEventListener("click", function decreaseBanana() {
+    count -= 1
+    if (count === 1) {
+        numBanana.innerHTML= count + " Banana"
+    } else if (count < 0) {
+        count = 0
+        numBanana.innerHTML= 0 + " Bananas"
+    }  else {
+        numBanana.innerHTML= count + " Bananas"
+    } 
+})
+
+
+
