@@ -15,6 +15,7 @@ h1 {
 
 img {
     padding: 80px;
+    border-radius: 50%;
 }
 
 .container {
@@ -52,5 +53,4 @@ footer {
     text-align: center;
     color: cornsilk;
     font-size: 120px;
-    padding: 20px;
 }
