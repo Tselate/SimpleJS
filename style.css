@@ -4,9 +4,7 @@
 
 body {
     background-color: cornsilk;
-    margin-bottom: 1200px;
-    clear: both;
-   
+    margin-bottom: 1500px;
 }
 h1 {
     background-color: rgb(250, 105, 48);
@@ -23,7 +21,8 @@ img {
 
 .container {
     display: flex;
-    margin: 3% 0 3% 28%;
+    width: 2500px;
+    margin: 2% auto;
 }
 
 .col {
@@ -31,7 +30,7 @@ img {
 }
 
 button {
-    font-size: 125px;
+    font-size: 75px;
     font-family:'Courier New', Courier, monospace;
     padding: 15px;
     border-radius: 30px;
