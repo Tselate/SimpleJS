@@ -13,6 +13,7 @@ let numPears = document.getElementById("num-pears")
 let numApples = document.getElementById("num-apples")
 let numBanana = document.getElementById("num-bananas")
 
+//Firut Count 
 let count = 0
 
 //Add functions 

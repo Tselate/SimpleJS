@@ -13,34 +13,56 @@
    </header>
    <main>
        <div class="container">
-            <!--insert imgs here divs probably with a class-->
-            <img src="Imgs/pear.jpg" alt="A Pear" width="350" height="400">
-            <img src="Imgs/apple.jpg" alt="An Apple" width="350" height="400">
-            <img src="Imgs/banana.jpg" alt="A Banana" width="350" height="400">
+            <!--insert imgs here-->
+            <div class="col">
+                <img src="Imgs/pear.jpg" alt="A Pear" width="850" height="1000">
+
+                <div>
+                    <button id="addPear" class="add">Add</button>
+                    <button id="subtractPear" class="subtract">Subtract</button>
+                </div>
+            </div>
+
+           <div class="col">
+                <img src="Imgs/apple.jpg" alt="An Apple" width="850" height="1000">
+
+                <div>
+                    <button id="addApple" class="add">Add</button>
+                    <button id="subtractApple" class="subtract">Subtract</button>
+                </div>
+           </div>
+
+            <div class="col">
+                <img src="Imgs/banana.jpg" alt="A Banana" width="850" height="1000">
+
+                <div>
+                    <button id="addBanana" class="add">Add</button>
+                    <button id="subtractBanana" class="subtract">Subtract</button>
+                </div>
+            </div>
        </div>
 
        <div class="counter">
-           <button id="addPear" class="add">Add</button>
-           <button id="subtractPear" class="subtract">Subtract</button>
-
-           <button id="addApple" class="add">Add</button>
-           <button id="subtractApple" class="subtract">Subtract</button>
-
-           <button id="addBanana" class="add">Add</button>
-           <button id="subtractBanana" class="subtract">Subtract</button>
+          
        </div>
    </main>
    <footer>
        <div class="results">
+           <div class="result"><strong>We got ...</strong></div>
            <div class="contianer">
               <!--three imgs-->
-              <img src="Imgs/pear.jpg" alt="A Pear" width="150" height="200">
-              <span id="num-pears"></span>
-              <img src="Imgs/apple.jpg" alt="An Apple" width="150" height="200">
-              <span id="num-apples"></span>
-              <img src="Imgs/banana.jpg" alt="A Banana" width="150" height="200">
-              <span id="num-bananas"></span>
+              <img src="Imgs/pear.jpg" alt="A Pear" width="550" height="600">
+              <!-- <span id="num-pears"></span> -->
+              <img src="Imgs/apple.jpg" alt="An Apple" width="550" height="600">
+              <!-- <span id="num-apples"></span> -->
+              <img src="Imgs/banana.jpg" alt="A Banana" width="550" height="600">
+              <!-- <span id="num-bananas"></span> -->
+           </div>
 
+           <div class="contianer">
+              <span id="num-pears"></span>
+              <span id="num-apples"></span>
+              <span id="num-bananas"></span>
            </div>
        </div>
    </footer>

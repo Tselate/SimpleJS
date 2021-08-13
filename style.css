@@ -4,12 +4,15 @@
 
 body {
     background-color: cornsilk;
+    margin-bottom: 1200px;
+    clear: both;
+   
 }
 h1 {
     background-color: rgb(250, 105, 48);
     text-align: center;
     color: cornsilk;
-    font-size: 120px;
+    font-size: 220px;
     padding: 20px;
 }
 
@@ -20,24 +23,19 @@ img {
 
 .container {
     display: flex;
-    width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 3% 0 3% 28%;
 }
 
-.counter {
-    display: flex;
-    width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
+.col {
+   padding: 0px 50px;
 }
 
 button {
-    font-size: 35px;
+    font-size: 125px;
     font-family:'Courier New', Courier, monospace;
     padding: 15px;
     border-radius: 30px;
-    margin: 15px;
+    margin: 35px;
 }
 
 .add {
@@ -48,9 +46,33 @@ button {
     background-color: rgb(222, 248, 77);
 }
 
+.result {
+    margin-top: 1%;
+    font-size: 200px;
+   
+}
+
+#num-pears{
+    padding: 0 180px;
+}
+
+#num-apples{
+    padding: 0 180px;
+}
+
+#num-bananas{
+    padding: 0 100px;
+   
+}
+
 footer {
     background-color: rgb(250, 105, 48);
     text-align: center;
     color: cornsilk;
     font-size: 120px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 1250px;
 }
